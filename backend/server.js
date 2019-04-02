@@ -66,7 +66,7 @@ todoRoutes.route('/update/:id').post(function(req, res) {
     });
 });
 
-app.use('/todo',todoRoutes);
+app.use('/todos',todoRoutes);
 
 app.listen(PORT,function(){
     console.log("Srever is running on Port: "+PORT);
